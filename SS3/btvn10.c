@@ -10,7 +10,7 @@ int main() {
     printf("Nhap b = ");
     scanf("%d", &b);
 
-    S = a + sqrt(a + sqrt(b));
+    S = sqrt(a+sqrt(b+1))+sqrt(b+sqrt(a*a+b*b));
 
     printf("S = %.2lf\n", S);
 
